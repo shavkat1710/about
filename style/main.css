@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif, serif;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2CE97;
+  width: 100%;
+ height: 100vh; 
+}
+.container{
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  border-radius: 10px;
+}
+.main-left{
+  background-color: #484956;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 5px 30px 25px;
+}
+.left-top-text{
+  font-size: 32px;
+  font-weight: 700;
+  color: #fffff0;
+}
+.left-top-span{
+  font-size: 32px;
+  color: #fffff0;
+}
+.span-line{
+  display: block;
+  margin-top: 15px;
+  width: 75px;
+  height: 7px;
+  background-color: #E37B62;
+  border-radius: 2px;
+}
+.main-left-bottom{
+  display: flex;
+  align-items: center;
+}
+.left-bottom-img{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  box-shadow: 0px 3px 10px 5px rgb(49, 46, 46);
+}
+.left-bottom-text{
+  color: #fffff0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.main-right{
+  background-color: #ffff;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between ;
+}
+.main-right-text{
+  width: 550px;
+  font-size: 22px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+.main-right-desc{
+  width: 550px;
+  font-size: 22px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+.right-second{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 27px 33px 25px;
+}
+.main-line{
+  display: block;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 7px;
+  background-color: #F7F7F8;
+}
+.span-t{
+  font-weight: 900;
+  width: 3px; 
+  height: 2px;
+}
+.right-first{
+  padding: 40px 5px 5px 5px;
+}
+.second-right{
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.second-left{
+  width: 170px;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+.second-line{
+  display: block;
+  width: 5px;
+  height: 2px;
+  background-color: #757575;
+}
+.span-time{
+  font-weight: 600;
+}
+.span-number{
+  color:#BFBDBA ;
+}
